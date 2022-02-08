@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/gnoahg/bru/issues"
   },
-  "homepage": "https://github.com/gnoahg/bru#readme"
+  "homepage": "https://github.com/gnoahg/bru#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.16",
+    "typescript": "^4.5.5"
+  }
 }
