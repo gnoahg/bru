@@ -22,8 +22,6 @@ export const client = new Client({
 client.once("ready", async () => {
   // make sure all guilds are in cache
   await client.guilds.fetch();
-  client.user.setActivity('activity', { type: 'WATCHING' });
-
   // init all application commands
   await client.initApplicationCommands({
     guild: { log: true },
