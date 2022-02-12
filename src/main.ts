@@ -3,6 +3,7 @@ import { Intents, Interaction, Message } from "discord.js";
 import { Client } from "discordx";
 import { dirname, importx } from "@discordx/importer";
 import { Koa } from "@discordx/koa";
+const { BOT_TOKEN } = require('./config.json');
 
 export const client = new Client({
   simpleCommand: {
@@ -60,7 +61,7 @@ async function run() {
   if (!process.env.BOT_TOKEN) {
     throw Error("Could not find BOT_TOKEN in your environment");
   }
-  await client.login("OTQwNzA3MzYwMTIzNTM5NjA2.YgLUAA.26DQjjm5lCBF-Nc5RXczkect26k"); // provide your bot token
+  await client.login(BOT_TOKEN); // provide your bot token
 
   // ************* rest api section: start **********
 
