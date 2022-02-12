@@ -6,9 +6,9 @@ abstract class AppDiscord {
   @Slash("test")
   Test(
     @SlashOption("roblox-username", { description: "Put your Roblox Username." })
-    what: string,
+    username: string,
     interaction: CommandInteraction
   ) {
-    interaction.reply(what);
+    interaction.reply(username);
   }
 }
