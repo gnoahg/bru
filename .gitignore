@@ -2,6 +2,6 @@ build
 node_modules
 yarn.lock
 package-lock.json
+config.json
 .env
 .vscode
-config.json
