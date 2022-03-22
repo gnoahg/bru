@@ -15,3 +15,5 @@
 ## Created by gnoah#0001 using Discord.js and JavaScript.
 
 Bot development started **02/08/2022** and development is still on-going.
+
+Released under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
